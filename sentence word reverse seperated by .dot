@@ -1,0 +1,7 @@
+t=int(input())
+for i in range(0,t):
+    string=input()
+    list_string=string.split(".")
+    list_string.reverse()
+    print(".".join(list_string))
+    i+=1

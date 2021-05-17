@@ -1,0 +1,7 @@
+n=int(input())
+lst=list(map(int,input().split()))
+min_val=min(lst)
+max_val=max(lst)
+total_sum=sum(lst)
+print(total_sum-max_val,end=' ')
+print(total_sum-min_val,end=' ')
